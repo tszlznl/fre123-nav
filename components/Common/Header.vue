@@ -136,4 +136,15 @@ defineExpose({ headerAnimation })
 }
 </style>
 
-
+<script>
+export default {
+  mounted() {
+    // 动态插入 umami 追踪代码
+    const script = document.createElement('script');
+    script.defer = true;
+    script.src = 'https://umi.417001.xyz/script';
+    script.setAttribute('data-website-id', 'a4683275-5e6a-4414-b500-53c00e8f45b0');
+    document.head.appendChild(script);
+  }
+}
+</script>
