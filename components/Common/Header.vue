@@ -136,5 +136,4 @@ defineExpose({ headerAnimation })
 }
 </style>
 
-/* umami追踪代码 */
-<script defer src="https://umi.417001.xyz/script" data-website-id="a4683275-5e6a-4414-b500-53c00e8f45b0"></script>
+
